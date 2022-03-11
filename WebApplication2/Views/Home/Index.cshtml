@@ -1,0 +1,108 @@
+﻿
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Resizable - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            min-height: 100%;
+        }
+        .resizable {
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
+            float: left;
+            margin: 3px 3px 3px 3px;
+            background-position: top left;
+
+        }
+
+            .resizable h3 {
+                text-align: center;
+                margin: 0;
+            }
+           
+}
+
+
+    </style>
+
+
+
+
+</head>
+
+
+    <div id="sortable">
+        
+            <div class="ui-widget-content resizable ">
+                <h3 class="ui-widget-header">Resizable</h3>
+            </div>
+            <div class="ui-widget-content resizable ">
+                <h3 class="ui-widget-header">Resizable 1</h3>
+            </div>
+            <div class="ui-widget-content resizable ">
+                <h3 class="ui-widget-header">Resizable 2</h3>
+            </div>
+            <div class="ui-widget-content resizable ">
+                <h3 class="ui-widget-header">Resizable 3</h3>
+            </div>
+            <div class="ui-widget-content resizable ">
+                <h3 class="ui-widget-header">Resizable 4</h3>
+            </div>
+            <div class="ui-widget-content resizable">
+                <h3 class="ui-widget-header">Resizable 5</h3>
+            </div>
+            <div class="ui-widget-content resizable ">
+                <h3 class="ui-widget-header">Resizable 6</h3>
+            </div>
+            <div class="ui-widget-content resizable">
+                <h3 class="ui-widget-header">Resizable 7</h3>
+            </div>
+            <div class="ui-widget-content resizable ">
+                <h3 class="ui-widget-header">Resizable 8</h3>
+            </div>
+        </div>
+            
+      
+    
+    <link href="~/lib/jqueryui/themes/redmond/jquery-ui.css" rel="stylesheet" />
+    @section scripts{
+        <script src="~/lib/jqueryui/jquery-ui.js"></script>
+        <script type="text/javascript">
+           
+            $(function () {
+                $(".resizable").resizable({
+                    minHeight: 100,
+                    minWidth:100,
+                    autoHide: true,
+                    stop: function (e, ui) {
+                        var parent = ui.element.parent();
+                        ui.element.css({
+                            width: ui.element.width() / parent.width() * 100 + "%",
+                            
+                        });
+                    }
+                });
+                
+               
+                $(function () {
+                    $("#sortable").sortable();
+                });
+
+                
+                });
+            
+            
+
+        </script>
+    }
+
