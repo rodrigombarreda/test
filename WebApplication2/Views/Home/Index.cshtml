@@ -16,12 +16,14 @@
             min-height: 100%;
         }
         .resizable {
+
             width: 150px;
             height: 150px;
             padding: 0.5em;
             float: left;
             margin: 3px 3px 3px 3px;
             background-position: top left;
+            
 
         }
 
@@ -81,16 +83,31 @@
            
             $(function () {
                 $(".resizable").resizable({
-                    minHeight: 100,
-                    minWidth:100,
+                    minHeight: 150,
+                    minWidth: 150,
                     autoHide: true,
                     stop: function (e, ui) {
                         var parent = ui.element.parent();
+
+                        if (ui.element.width() > 150) {
                         ui.element.css({
-                            width: ui.element.width() / parent.width() * 100 + "%",
+                            width: ui.element.width() / parent.width() * 100 + "%"
                             
+
+
                         });
+                        }
+                        if (ui.element.width() / parent.width() * 100 > 100) {
+                            ui.element.css({
+                                width: 100+"%"
+
+
+                            });
+                            
+                        }
+                        
                     }
+                    
                 });
                 
                
