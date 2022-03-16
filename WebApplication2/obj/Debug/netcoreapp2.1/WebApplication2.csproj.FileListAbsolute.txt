@@ -68,7 +68,6 @@ C:\Users\PC\Desktop\asd\test\WebApplication2\bin\Debug\netcoreapp2.1\WebApplicat
 C:\Users\PC\Desktop\asd\test\WebApplication2\bin\Debug\netcoreapp2.1\WebApplication2.pdb
 C:\Users\PC\Desktop\asd\test\WebApplication2\bin\Debug\netcoreapp2.1\WebApplication2.Views.dll
 C:\Users\PC\Desktop\asd\test\WebApplication2\bin\Debug\netcoreapp2.1\WebApplication2.Views.pdb
-C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.csprojAssemblyReference.cache
 C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.RazorAssemblyInfo.cache
 C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.RazorAssemblyInfo.cs
