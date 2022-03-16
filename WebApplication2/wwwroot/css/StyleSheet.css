@@ -9,7 +9,6 @@ body {
 .resizable {
     min-width: 150px !important;
     max-width: 100% !important;
-    min-height: 338px !important;
     padding: 0.5em;
     float: left;
     margin: 3px 3px 3px 3px;

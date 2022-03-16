@@ -92,3 +92,4 @@ C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplicat
 C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.dll
 C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.pdb
 C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.csproj.CopyComplete
+C:\Users\PC\Desktop\asd\test\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.csprojAssemblyReference.cache
